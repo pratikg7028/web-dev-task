@@ -1,0 +1,37 @@
+
+*
+{
+    font-family: montserrat;
+}
+
+body{
+      background-color: #f1fbff;
+}
+
+.team .card-body
+{
+    font-style: 20px;
+}
+
+/* responsive css */
+@media only screen and(min-wdth:768px)and (min-width:991px)
+{
+      .card 
+      {
+         margin-bottom: 30px;   
+      }
+      .img-area img
+      {
+          width:100%;
+      }
+}
+
+
+@media only screen and (max-width:767px)
+{
+    .card 
+    {
+        margin-bottom: 30px;
+    }
+
+}
